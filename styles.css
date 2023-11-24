@@ -50,8 +50,6 @@ ul {
 
 ul li a {
     padding: .5rem 1rem;
-    border: 2px solid transparent;
-    text-decoration: none;
     font-weight: 600;
     color: #000;
     transition: 0.3s;
@@ -92,9 +90,9 @@ li a:focus {
         flex-direction: column-reverse;
         margin-top: 90px;
     }
-
-    li {
-        font-size: 0.6rem
+    ul{
+        gap:0.5px;
+        font-size: 0.7rem;
     }
 
     footer {
