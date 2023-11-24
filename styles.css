@@ -26,7 +26,6 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff;
     z-index: 99;
 }
 
@@ -56,16 +55,22 @@ ul li a {
     transition: 0.3s;
 }
 
+
+
 li:hover {
     color: var(--secondary-color);
 }
 
-ul li a:hover {
+li a:hover {
     color: var(--secondary-color);
 }
-a:hover{
+
+li a:focus {
     color: var(--secondary-color);
 }
+
+
+
 .section {
     background-color: #ffffff;
 }
@@ -76,8 +81,20 @@ a:hover{
     margin: auto;
     padding: 1rem;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 4rem;
+}
+
+@media (width < 750px) {
+    .section__container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 90px;
+    }
+
+    li {
+        font-size: 0.6rem;
+    }
 }
 
 .content {
