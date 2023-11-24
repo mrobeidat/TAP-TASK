@@ -27,7 +27,9 @@ nav {
     top: 0;
     left: 0;
     z-index: 99;
-    backdrop-filter: blur(50px);}
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
 
 .nav__content {
     max-width: var(--max--width);
