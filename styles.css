@@ -173,3 +173,12 @@ li a:focus {
     width: 100%;
     box-shadow: -27px 0px 3px #42bdd994;
 }
+
+footer a p span {
+    color: #D1884F;
+}
+
+footer {
+    justify-content: center;
+
+}
